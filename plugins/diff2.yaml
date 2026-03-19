@@ -4,46 +4,46 @@ kind: Plugin
 metadata:
   name: diff2
 spec:
-  version: v0.3.1
+  version: v0.4.0
   platforms:
     - bin: kube-diff.exe
-      uri: https://github.com/somaz94/kube-diff/releases/download/v0.3.1/kube-diff_0.3.1_windows_arm64.zip
-      sha256: 451aebf217b3ff3c4645f09496c820c2f9fefa73750f51f989f744c16fa9ea7d
+      uri: https://github.com/somaz94/kube-diff/releases/download/v0.4.0/kube-diff_0.4.0_windows_arm64.zip
+      sha256: 28544f5865bcb4eafacded1ac315c7ac01adda5653560e44ba0b0bf10b76909a
       selector:
         matchLabels:
           os: windows
           arch: arm64
     - bin: kube-diff.exe
-      uri: https://github.com/somaz94/kube-diff/releases/download/v0.3.1/kube-diff_0.3.1_windows_amd64.zip
-      sha256: 9d1392da85ec60effb5cd8239543e4b120ec033515299c5134940e110c3691e3
+      uri: https://github.com/somaz94/kube-diff/releases/download/v0.4.0/kube-diff_0.4.0_windows_amd64.zip
+      sha256: 4f824bde2617dcd81d9d5418c7c5e11d12361b8a33140a9939ad8cb4b26ff6f0
       selector:
         matchLabels:
           os: windows
           arch: amd64
     - bin: kube-diff
-      uri: https://github.com/somaz94/kube-diff/releases/download/v0.3.1/kube-diff_0.3.1_linux_arm64.tar.gz
-      sha256: 2f00a4c1a0a825a0263bc2731fdd3a2fcf2317091089432169e7d06bd4f1a93c
+      uri: https://github.com/somaz94/kube-diff/releases/download/v0.4.0/kube-diff_0.4.0_linux_arm64.tar.gz
+      sha256: 24ae96f8016ab179570bd6ad3bb5c92e980a35bbe0fbef6896a054b6496c7e27
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: kube-diff
-      uri: https://github.com/somaz94/kube-diff/releases/download/v0.3.1/kube-diff_0.3.1_linux_amd64.tar.gz
-      sha256: ce08b0e0ae34a6b0881ae0f7f6bffea7aece3e26457ebb9736f937a76e64f2a7
+      uri: https://github.com/somaz94/kube-diff/releases/download/v0.4.0/kube-diff_0.4.0_linux_amd64.tar.gz
+      sha256: 021a83aec955ff1dc51aa743925bf61b241fed77b190c24de5d759670719b1db
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: kube-diff
-      uri: https://github.com/somaz94/kube-diff/releases/download/v0.3.1/kube-diff_0.3.1_darwin_arm64.tar.gz
-      sha256: b56f46f984efe1d64102de7cac8d56760f048c7f53babcb9c4988fd09ada4346
+      uri: https://github.com/somaz94/kube-diff/releases/download/v0.4.0/kube-diff_0.4.0_darwin_arm64.tar.gz
+      sha256: 9973922e7fd45e6741212fc46f331dc628825f71f4c6450badcb26091c900208
       selector:
         matchLabels:
           os: darwin
           arch: arm64
     - bin: kube-diff
-      uri: https://github.com/somaz94/kube-diff/releases/download/v0.3.1/kube-diff_0.3.1_darwin_amd64.tar.gz
-      sha256: 6f92e13fb0cecfaa6e7779df1aa25d1f72528d167e55c3d784ac4f675f43ce15
+      uri: https://github.com/somaz94/kube-diff/releases/download/v0.4.0/kube-diff_0.4.0_darwin_amd64.tar.gz
+      sha256: 675b57223e86257b25a4ae18fe8157418f2923327f138dad1cc2bbe315a8dbb1
       selector:
         matchLabels:
           os: darwin
