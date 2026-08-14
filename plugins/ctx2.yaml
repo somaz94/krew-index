@@ -4,46 +4,46 @@ kind: Plugin
 metadata:
   name: ctx2
 spec:
-  version: v0.3.0
+  version: v0.4.0
   platforms:
     - bin: kctx.exe
-      uri: https://github.com/somaz94/kube-ctx/releases/download/v0.3.0/kube-ctx_0.3.0_windows_arm64.zip
-      sha256: d6ec625ae9b4d4291e11755fe9fd3044567f30c7acfba2ec836c67a29f5e7569
+      uri: https://github.com/somaz94/kube-ctx/releases/download/v0.4.0/kube-ctx_0.4.0_windows_arm64.zip
+      sha256: 60ffecba463057da42a7e0c75e996c6c2d27fc351ba878016419544d0dd54cf2
       selector:
         matchLabels:
           os: windows
           arch: arm64
     - bin: kctx.exe
-      uri: https://github.com/somaz94/kube-ctx/releases/download/v0.3.0/kube-ctx_0.3.0_windows_amd64.zip
-      sha256: 6e8b9992c8ecc72e9fba5e0b71fb59e1e8629219e19373b9229e10edf2f99cee
+      uri: https://github.com/somaz94/kube-ctx/releases/download/v0.4.0/kube-ctx_0.4.0_windows_amd64.zip
+      sha256: 5440b6b850233739e059f8bc54640661e2b1c161b2fec79a1ac1c7728faae5f5
       selector:
         matchLabels:
           os: windows
           arch: amd64
     - bin: kctx
-      uri: https://github.com/somaz94/kube-ctx/releases/download/v0.3.0/kube-ctx_0.3.0_linux_arm64.tar.gz
-      sha256: 12f298f7b02d790b43be2acd1c758ec6cfb5159ed234c8ed3236359f2f0f89fa
+      uri: https://github.com/somaz94/kube-ctx/releases/download/v0.4.0/kube-ctx_0.4.0_linux_arm64.tar.gz
+      sha256: db10fb431b5351703e47af511dd2ba7b571e90eab07c28a7cb1ed5029947fa5d
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: kctx
-      uri: https://github.com/somaz94/kube-ctx/releases/download/v0.3.0/kube-ctx_0.3.0_linux_amd64.tar.gz
-      sha256: 3ff59425dd69543263fed34c26bb562c9f316e5735544630e4a97021be2a5a07
+      uri: https://github.com/somaz94/kube-ctx/releases/download/v0.4.0/kube-ctx_0.4.0_linux_amd64.tar.gz
+      sha256: 07809fc1710d3048b99d36e3d61cade6717dbc77ccc441987f51326f650645cd
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: kctx
-      uri: https://github.com/somaz94/kube-ctx/releases/download/v0.3.0/kube-ctx_0.3.0_darwin_arm64.tar.gz
-      sha256: 2736ccd725fde3f5184c82a75d77253802fd6e0fa96453583eca485f2385fb89
+      uri: https://github.com/somaz94/kube-ctx/releases/download/v0.4.0/kube-ctx_0.4.0_darwin_arm64.tar.gz
+      sha256: 45a8cc327310300a53593e3882bfb732c3c29d1674d9afc374b5d0a58f0d296d
       selector:
         matchLabels:
           os: darwin
           arch: arm64
     - bin: kctx
-      uri: https://github.com/somaz94/kube-ctx/releases/download/v0.3.0/kube-ctx_0.3.0_darwin_amd64.tar.gz
-      sha256: 7d9de46e688af472bd9e2894b0cb7205ea1df75419c21aafa9d1a021392dbb87
+      uri: https://github.com/somaz94/kube-ctx/releases/download/v0.4.0/kube-ctx_0.4.0_darwin_amd64.tar.gz
+      sha256: cd6d70b28147148290b1682f7d3a059bf08329311677379d673e51c76dd6f594
       selector:
         matchLabels:
           os: darwin
