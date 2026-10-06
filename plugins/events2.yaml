@@ -4,46 +4,46 @@ kind: Plugin
 metadata:
   name: events2
 spec:
-  version: v0.3.4
+  version: v0.3.5
   platforms:
     - bin: kube-events.exe
-      uri: https://github.com/somaz94/kube-events/releases/download/v0.3.4/kube-events_0.3.4_windows_arm64.zip
-      sha256: 366f864e1e340aaa01a27694fd31404e9ed47f5a778ceb355aaebc6a9e7576cd
+      uri: https://github.com/somaz94/kube-events/releases/download/v0.3.5/kube-events_0.3.5_windows_arm64.zip
+      sha256: 08d161b47e09277433e9599905f827aac6e0a19929f720de25f7742e40538515
       selector:
         matchLabels:
           os: windows
           arch: arm64
     - bin: kube-events.exe
-      uri: https://github.com/somaz94/kube-events/releases/download/v0.3.4/kube-events_0.3.4_windows_amd64.zip
-      sha256: 2777bcac057b5ab45e9a2b9b58188cc3e2422e2861ee6e98c4acd4f3e09c1867
+      uri: https://github.com/somaz94/kube-events/releases/download/v0.3.5/kube-events_0.3.5_windows_amd64.zip
+      sha256: c6f98b9a53890a011ebe61ff3386e797d205c4decf57ff68a88261bef0cfe688
       selector:
         matchLabels:
           os: windows
           arch: amd64
     - bin: kube-events
-      uri: https://github.com/somaz94/kube-events/releases/download/v0.3.4/kube-events_0.3.4_linux_arm64.tar.gz
-      sha256: 337a180484459a53c32f715dd46e58c2567c38e865018ccd6d80693f9cf38fe1
+      uri: https://github.com/somaz94/kube-events/releases/download/v0.3.5/kube-events_0.3.5_linux_arm64.tar.gz
+      sha256: 975991e43a8effdf3eaf45dbe57e931d005d518155bfe737badc82706b979af7
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: kube-events
-      uri: https://github.com/somaz94/kube-events/releases/download/v0.3.4/kube-events_0.3.4_linux_amd64.tar.gz
-      sha256: b70970e1985c13b1689b537adb1a9ebd2182cf93049d7766888d81032b9c0e66
+      uri: https://github.com/somaz94/kube-events/releases/download/v0.3.5/kube-events_0.3.5_linux_amd64.tar.gz
+      sha256: 3657c4d0184c45668afb937b00922fe8c0de41f73e94906195f69648cb5c914e
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: kube-events
-      uri: https://github.com/somaz94/kube-events/releases/download/v0.3.4/kube-events_0.3.4_darwin_arm64.tar.gz
-      sha256: a1f6ba4630c3d05f04d3080b01c5ee96c2eda03fec18a6926550f5ea874d086b
+      uri: https://github.com/somaz94/kube-events/releases/download/v0.3.5/kube-events_0.3.5_darwin_arm64.tar.gz
+      sha256: 632b7a6b19414953cc6819bb47ef84f80b41436d4953154c4bd7eee8b4444308
       selector:
         matchLabels:
           os: darwin
           arch: arm64
     - bin: kube-events
-      uri: https://github.com/somaz94/kube-events/releases/download/v0.3.4/kube-events_0.3.4_darwin_amd64.tar.gz
-      sha256: 0b0dbf76c4cbe9cc8106de753d3e72672e9484c7a425232995e6926aadd476fb
+      uri: https://github.com/somaz94/kube-events/releases/download/v0.3.5/kube-events_0.3.5_darwin_amd64.tar.gz
+      sha256: a35a39da4f6d6d91655e30608155c05e3c35e91e3526c52b463749217a015ccb
       selector:
         matchLabels:
           os: darwin
